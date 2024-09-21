@@ -26,7 +26,7 @@ export const profileData = [
     "description": "Skilled web developer specializing in front-end technologies.",
     "fullDescription": "Skilled web developer specializing in front-end technologies. Experienced in building responsive, high-performance websites using modern JavaScript frameworks like React and Vue.js. Passionate about creating pixel-perfect designs and ensuring smooth user interactions across devices.",
     "background": "https://images.pexels.com/photos/1001647/pexels-photo-1001647.jpeg",
-    "profileImage": "https://images.pexels.com/photos/1001647/pexels-photo-1001647.jpeg?w=150&h=150",
+    "profileImage": null,
     "profileLink": "https://facebook.com/david.okeke"
   },
   {
@@ -36,7 +36,7 @@ export const profileData = [
     "description": "Detail-oriented product manager with experience in agile methodologies.",
     "fullDescription": "Detail-oriented product manager with experience in agile methodologies. Highly skilled at coordinating cross-functional teams, defining product roadmaps, and overseeing product development from ideation to launch. Known for delivering products that meet both user needs and business objectives.",
     "background": "https://images.pexels.com/photos/3184315/pexels-photo-3184315.jpeg",
-    "profileImage": "https://images.pexels.com/photos/3184315/pexels-photo-3184315.jpeg?w=150&h=150",
+    "profileImage": null,
     "profileLink": "https://facebook.com/ngozi.obi"
   },
   {
@@ -46,7 +46,7 @@ export const profileData = [
     "description": "Dedicated software engineer with a focus on backend development.",
     "fullDescription": "Dedicated software engineer with a focus on backend development. Proficient in programming languages like Python, Java, and C#. Experienced in designing and developing scalable systems, RESTful APIs, and working with cloud platforms such as AWS and Azure.",
     "background": "https://images.pexels.com/photos/3184297/pexels-photo-3184297.jpeg",
-    "profileImage": "https://images.pexels.com/photos/3184297/pexels-photo-3184297.jpeg?w=150&h=150",
+    "profileImage": null,
     "profileLink": "https://facebook.com/emeka.uzo"
   },
   {
@@ -86,7 +86,7 @@ export const profileData = [
     "description": "Results-driven SEO specialist helping brands improve their online visibility.",
     "fullDescription": "Results-driven SEO specialist helping brands improve their online visibility. Proficient in optimizing websites for search engines, conducting keyword research, and implementing on-page and off-page SEO strategies. Experienced in analyzing website performance using tools like Google Search Console and Ahrefs.",
     "background": "https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg",
-    "profileImage": "https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg?w=150&h=150",
+    "profileImage": null,
     "profileLink": "https://facebook.com/tunde.ogunleye"
   },
   {

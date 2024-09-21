@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import './card.css'
+import deafult from '/assest/images/default.jfif'
 
 
 const Card = ({item }) => {
@@ -8,13 +9,13 @@ const Card = ({item }) => {
     <div className="user-profile">
       <div className="card-image">
           <img id='background-img' src={background} alt="" />
-          <img id={profileImage ? 'profile-img': null} src={profileImage} alt="" />
+          <img id='profile-img' src={profileImage ? profileImage : deafult} alt="" />
           <div className="card-detail">
           <p id='userName'>{name}</p>
           <p id='profession'>{profession}</p>
           <p id='description'>{description}</p>
-          <NavLink className="view-btn" to={`/userprofile/${id}`}>
-            <button id="view-btn">View Profile</button>
+          <NavLink to={`/userprofile/${id}`}>
+            <button className='view-btn'>View Profile</button>
           </NavLink>
           </div>
           </div>
