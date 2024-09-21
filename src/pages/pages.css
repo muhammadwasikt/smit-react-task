@@ -1,0 +1,34 @@
+.user-detail{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.user-data{
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    background-color: #ffff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.user-data h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.user-data p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.603);
+    padding-bottom: 40px;
+}
+#desc{
+    font-size: medium;
+    color: rgba(0, 0, 0, 0.884);
+    line-height: 20px;
+    text-align: left;
+}

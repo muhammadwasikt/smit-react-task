@@ -1,4 +1,4 @@
-const profileData = [
+export const profileData = [
   {
     'id': 1,
     "name": "Chisom Chukwukwe",
@@ -101,4 +101,4 @@ const profileData = [
   }
 ]
 
-export default profileData;
+

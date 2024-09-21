@@ -3,7 +3,7 @@ import './card.css'
 
 
 const Card = ({item }) => {
-  const { background   , profileImage , name , description , profession} = item
+  const {id , background   , profileImage , name , description , profession} = item
     return (
     <div className="user-profile">
       <div className="card-image">
@@ -13,7 +13,9 @@ const Card = ({item }) => {
           <p id='userName'>{name}</p>
           <p id='profession'>{profession}</p>
           <p id='description'>{description}</p>
-          <button id='veiw-btn'> View Profile</button>
+          <NavLink className="view-btn" to={`/userprofile/${id}`}>
+            <button id="view-btn">View Profile</button>
+          </NavLink>
           </div>
           </div>
     </div>
